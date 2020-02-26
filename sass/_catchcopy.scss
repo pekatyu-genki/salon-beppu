@@ -1,0 +1,27 @@
+
+.catch-copy {
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.catch-message {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    p {
+        font-size: 2.5rem;
+        letter-spacing: 3.8px;
+    }
+    h2 {
+        font-size: 3.5rem;
+        margin-top: 48px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        opacity: 1;
+    }
+}
+
+.catch-img {
+    width: 50%;
+}
