@@ -184,19 +184,112 @@ main {
   text-align: center;
 }
 
-.catch-message p {
+.catch-message h3 {
   font-size: 2.5rem;
   letter-spacing: 3.8px;
 }
 
 .catch-message h2 {
-  font-size: 3.5rem;
-  margin-top: 48px;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 3.25rem;
+  margin-top: 126px;
+  font-family: 'Zapfino';
   opacity: 1;
 }
 
 .catch-img {
   width: 50%;
+  background-size: cover;
+}
+
+.concept {
+  width: 100%;
+  height: 963.5px;
+}
+
+.concept-wrap {
+  width: 85%;
+  margin: 0 auto;
+  padding-top: 256px;
+  color: #707070;
+}
+
+.concept-wrap h4 {
+  width: 234.5px;
+  font-size: 1.2rem;
+  font-family: 'Roboto';
+  letter-spacing: 5.4px;
+  text-transform: uppercase;
+  opacity: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+.concept-wrap h4:after {
+  margin-left: 10px;
+  border-top: 1px solid;
+  content: "";
+  display: inline;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+
+.c-img-wrap {
+  width: 100%;
+  margin-top: 11px;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.c-img-wrap .c-img2 {
+  margin-left: 11px;
+}
+
+.message-wrap {
+  width: 80%;
+  margin: 0 auto;
+  color: #FFFFFF;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.message-wrap h3 {
+  width: 445px;
+  height: 130px;
+  margin-top: 69px;
+  font-size: 2rem;
+  letter-spacing: 16px;
+  text-align: center;
+  opacity: 1;
+}
+
+.message-wrap P {
+  width: 422px;
+  height: 130px;
+  margin-top: 69px;
+  font-size: 0.85rem;
+  letter-spacing: 1.6px;
+  opacity: 1;
+}
+
+.back-color1 {
+  width: 100%;
+  height: 967px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#A193861F), color-stop(50%, #A193861F), color-stop(50%, #A1938689), to(#A1938689));
+  background: linear-gradient(180deg, #A193861F 0%, #A193861F 50%, #A1938689 50%, #A1938689 100%);
 }
 /*# sourceMappingURL=main.css.map */
